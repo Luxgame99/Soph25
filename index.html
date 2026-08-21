@@ -9,8 +9,11 @@
     redirecting to MotherMultiplications.html...
 
     <script type="javascript">
-        
-        window.location.replace("MotherMultiplications.html")
+        function delay(time) {
+            return new Promise(resolve => setTimeout(resolve, time));
+        }
+
+        delay(1000).then(() => window.location.replace("Mother-Multiplications.html"));
     </script>
 </body>
 </html>
