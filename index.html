@@ -3,47 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frohe Weihnachten!</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-        body{
-            margin:0;
-            padding:0;
-            height: 100vh;
-            font-family: "Montserrat", sans-serif;
-            text-align: center;
-            transition-duration: 0.5s;
-            background: #000000;
-            background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(130, 36, 41, 1) 70%);
-            background-size: 100%;
-            background-repeat: no-repeat;
-        }
-
-        a{
-            color: #000;
-            text-decoration: none;
-            transition-duration: 0.5s;
-        }
-        a:hover{
-            font-weight: 700;
-
-        }
-
-        audio{
-            background-color: transparent;
-            border-radius: 5px;
-            border: none;
-            width: 75%;
-            height: 5em;
-        }
-    </style>
+    <title>redirecting...</title>
 </head>
 <body>
-    <br><br><br>
-    <h1 style="font-style: oblique";>Bitte Kopfhörer anziehen.</h1>
-    <br><br><br>
-    <audio controls src="SampleTest6.mp3" id="audio" type="audio/mpeg"></audio>
-    <br><br><br>
-    <a href="SampleTest6.mp3"> Herunterladen </a>
+    redirecting to MotherMultiplications.html...
+
+    <script type="javascript">
+        function delay(time) {
+            return new Promise(resolve => setTimeout(resolve, time));
+        }
+
+        delay(1000).then(() => window.location.replace("MotherMultiplications.html"));
+    </script>
 </body>
 </html>
